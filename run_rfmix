@@ -1,0 +1,12 @@
+alleles=$1
+classes=$2
+snploc=$3
+out=$4
+
+dir=`pwd`
+
+cd /home/mtperkin/projects/Browning/RFMix_v1.5.4
+
+python2.7 RunRFMix.py PopPhased ${dir}/$alleles ${dir}/$classes ${dir}/$snploc -o ${dir}/$out --disable-parallel -n 5
+
+cd $dir
