@@ -1,5 +1,5 @@
 # training_materials
-scripts adapted from Browning et al. (2018) Ancestry-specific recent Ne in the Americas. Plos Genet
+scripts adapted from Browning et al. (2018) Ancestry-specific recent effective population size in the Americas. Plos Genet
 
 Scripts were run in the order listed below. Details are provided in the format: script - software - task
 
